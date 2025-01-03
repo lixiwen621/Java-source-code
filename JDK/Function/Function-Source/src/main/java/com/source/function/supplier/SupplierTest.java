@@ -5,6 +5,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Optional;
+import java.util.Random;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
@@ -34,6 +35,12 @@ public class SupplierTest {
         Stream.generate(stringSupplier)
                 .limit(5)
                 .forEach(System.out::println);
+    }
+
+    @Test
+    public void generateRandom(){
+        Supplier<Integer> randomSupplier = () -> new Random().nextInt(100);
+        System.out.println(randomSupplier.get()); // 随机生成 0 - 99 的随机数
     }
 
 }
