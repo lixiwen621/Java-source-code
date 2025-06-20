@@ -1,0 +1,31 @@
+@startuml
+package java.lang{
+
+    class String {
+
+    }
+
+    interface Comparable<String>{
+
+    }
+
+    interface CharSequence{
+
+    }
+
+    interface Constable{
+
+    }
+
+    interface ConstantDesc{
+
+    }
+
+}
+
+String --> Comparable
+String --> CharSequence
+String --> Constable
+String ..|> ConstantDesc
+
+@enduml

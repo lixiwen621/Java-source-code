@@ -1,0 +1,20 @@
+@startuml
+package java.util{
+
+    class List<E> {
+
+    }
+
+    interface Collection<E>{
+
+    }
+
+}
+List --> Collection
+package java.lang{
+    interface Iterable<T>
+}
+
+List --> Iterable
+
+@enduml

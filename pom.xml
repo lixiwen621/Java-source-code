@@ -13,6 +13,8 @@
     <modules>
         <module>JDK/String/String-Source</module>
         <module>JDK/Function/Function-Source</module>
+        <module>JDK/List/List-Source</module>
+        <module>JDK/Stream/Stream-Source</module>
     </modules>
 
 

@@ -7,8 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="String-Source" />
+        <module name="List-Source" />
         <module name="Function-Source" />
+        <module name="Stream-Source" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Stream-source" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,8 +3,14 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/JDK/Function/Function-Source/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JDK/Function/Function-Source/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JDK/List/List-Source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JDK/List/List-Source/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JDK/Stream/Stream-Source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JDK/Stream/Stream-Source/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JDK/String/String-Source/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JDK/String/String-Source/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Stream-source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Stream-source/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
